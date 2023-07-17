@@ -8,7 +8,20 @@ const myFont = localFont({
 
 export const metadata: Metadata = {
   title: "Wheel Of Pearl",
-  description: "Wheel Of Pearl",
+  description: "Spin the wheel and let Pearl decide!",
+  openGraph: {
+    type: "website",
+    url: "wheel-of-pearl.vercel.app",
+    title: "Wheel Of Pearl",
+    description: "Spin the wheel and let Pearl decide!",
+    siteName: "Wheel Of Pearl",
+    images: "/icon.png",
+  },
+  creator: "John Rod Dondoyano",
+  publisher: "John Rod Dondoyano",
+  authors: [
+    { name: "John Rod Dondoyano", url: "https://www.facebook.com/dondycles" },
+  ],
 };
 
 export default function RootLayout({
