@@ -261,7 +261,7 @@ export default function Home() {
                     id={String(i)}
                     className="flex justify-between border-b-2 border-zinc-200 p-2"
                   >
-                    <p>{item} -</p>
+                    <p>{item}</p>
                     <AiFillDelete
                       role="button"
                       tabIndex={0}
