@@ -240,7 +240,7 @@ export default function Home() {
               ref={input}
               type="text"
               placeholder="Input items"
-              className=" px-4 py-1 rounded-full text-black flex-1"
+              className=" px-4 py-1 min-w-[0px] rounded-full text-black flex-1"
             />
             <button
               onClick={() => {
