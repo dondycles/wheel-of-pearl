@@ -18,6 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`text-xl leading-none ${myFont.className}`}>
+      <head>
+        <link rel="shortcut icon" href="icon.png" type="image/png" />
+      </head>
       <body>{children}</body>
     </html>
   );
