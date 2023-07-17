@@ -52,7 +52,11 @@ export default function Home() {
                 {items.length < 3 ? (
                   <>
                     What a luck! <br /> The universe chose{" "}
-                    {picked.index === 0 ? <>{items[1]}</> : <>{items[0]}</>}
+                    {picked && picked.index === 0 ? (
+                      <>{items[1]}</>
+                    ) : (
+                      <>{items[0]}</>
+                    )}
                   </>
                 ) : (
                   <>
