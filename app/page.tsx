@@ -44,7 +44,7 @@ export default function Home() {
           <h2 className=" text-2xl font-medium">
             {spinMode === "firstpick" ? (
               <p>
-                What a luck! <br /> The universe chose
+                What a luck! <br /> The universe chose{" "}
                 {picked && picked.content}!
               </p>
             ) : (
